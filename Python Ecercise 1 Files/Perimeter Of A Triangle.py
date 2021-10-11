@@ -1,8 +1,8 @@
 """Perimeter Of A Triangle-----------------------------------------------------------------------------"""
 
-length1 = float(input("Enter Edge 1 : "))
-length2 = float(input("Enter Edge 2 : "))
-length3 = float(input("Enter Edge 3 : "))
+length1 = float(input("Enter Length 1 : "))
+length2 = float(input("Enter Length 2 : "))
+length3 = float(input("Enter Length 3 : "))
 
 if float(length1 + length2 > length3):
     if float(length1 + length3 > length2):
