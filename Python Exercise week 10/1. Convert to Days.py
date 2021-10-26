@@ -6,6 +6,7 @@ def convert_to_day():
 
     return hour, minute, second
 
+
 h, m, s, = convert_to_day()
 
 seconds_to_day = s / 86400
