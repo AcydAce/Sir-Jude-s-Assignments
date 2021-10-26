@@ -19,13 +19,14 @@ get_day = seconds_to_day + minute_to_day + hour_to_day
 print("the number of days is %.4f::" % float(get_day))
 """
 
-""" 2
+
 def calc_weight_on_planet(x,y):
     return x, y
+
 
 x = calc_weight_on_planet(x)
 y = calc_weight_on_planet(y)
 
 calc_weight_on_planet(120,12)
 print(x,y)
-"""
+
