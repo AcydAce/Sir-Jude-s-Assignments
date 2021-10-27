@@ -35,6 +35,7 @@ print(calc_weight_on_planet(120,) , end= "lb\n")
 print(calc_weight_on_planet(120,23.1) , end= "lb")
 """
 
+"""
 def num_atom(amount,weight=196.97):
 
     avogadro = 6.022 * 10 ** 23
@@ -47,3 +48,15 @@ print("the atomic weight of:\n")
 print("gold:",num_atom(10),"\n")
 print("carbon:",num_atom(10,12.001),"\n")
 print("hydrogen:",num_atom(10,1.008),"\n")
+"""
+
+def calc_new_height():
+
+    width = int(input("Enter the current width: "))
+    height = int(input("Enter the current height: "))
+    new_width = int(input("Enter the new width: "))
+    new_res = height / width * new_width
+
+    return new_res
+
+print("The new height is: ", calc_new_height())
