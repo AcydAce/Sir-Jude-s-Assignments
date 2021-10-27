@@ -50,6 +50,7 @@ print("carbon:",num_atom(10,12.001),"\n")
 print("hydrogen:",num_atom(10,1.008),"\n")
 """
 
+"""
 def calc_new_height():
 
     width = int(input("Enter the current width: "))
@@ -60,3 +61,15 @@ def calc_new_height():
     return new_res
 
 print("The new height is: ", calc_new_height())
+"""
+
+def convert_temp():
+    Tf = int(input("Insert Fahrenheit: "))
+    Tc = 5 / 9 *(Tf - 32)
+    Tk = Tc + 273.15
+
+    print("the temperature in fahrenheit is:", Tf)
+    print("the temperature in celsius is:", Tc)
+    print("the temperature in Kelvin is:", Tk)
+
+convert_temp()
